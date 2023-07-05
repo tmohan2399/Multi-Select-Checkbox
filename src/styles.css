@@ -1,0 +1,160 @@
+* {
+  --search-width: 400px;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+h4 {
+  position: relative;
+  left: calc((100% - var(--search-width)) / 2);
+}
+
+.search-box {
+  height: 20px;
+  width: var(--search-width);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  color: rgb(189, 184, 184);
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.search-box::before {
+  content: "";
+  background: hsl(345deg 74% 50%);
+  position: absolute;
+  height: 2px;
+  width: 0;
+  top: 20px;
+  transition: width 0.9s;
+}
+
+.search-box.selected::before {
+  width: 400px;
+}
+
+.dropbox {
+  display: none;
+  position: relative;
+  top: 5px;
+  text-overflow: scroll;
+  box-shadow: 0 3px 10px rgb(184, 182, 182);
+}
+
+.dropbox.show {
+  display: block;
+}
+
+.selected-text {
+  font-size: 15px;
+  color: black;
+}
+
+.dropdown-arrow {
+  color: black;
+  position: relative;
+  bottom: 10%;
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in;
+}
+
+.dropdown-arrow-rotate {
+  transform: rotate(-225deg);
+}
+
+.clear-icon {
+  width: 30px;
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+}
+
+.search-icons {
+  display: flex;
+}
+
+.select-all {
+  height: 25px;
+  max-width: var(--search-width);
+  padding: 10px 25px 5px;
+  display: flex;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.value-list {
+  height: 400px;
+  width: var(--search-width);
+  position: relative;
+  overflow-y: scroll;
+}
+
+.value-sub-list {
+  height: max-content;
+  width: max-content;
+  text-overflow: ellipsis;
+  position: relative;
+  left: 35px;
+}
+
+.single-value {
+  display: flex;
+  margin: 15px 5px 20px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border: 2px solid #808080;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.checkbox:hover {
+  background-color: rgb(226, 221, 221);
+}
+
+.checked {
+  background-color: hsl(345deg 74% 50%);
+  border: 2px solid hsl(345deg 74% 50%);
+}
+
+.checked:hover {
+  background-color: hsl(345deg 74% 50%);
+}
+
+.checked::before {
+  content: "";
+  width: 4px;
+  height: 8px;
+  position: absolute;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  transform: translate(-30%, 10%) rotate(45deg);
+}
+
+.partial-tick::before {
+  content: "";
+  width: 9px;
+  height: 1px;
+  background: rgb(170 170 170);
+  position: absolute;
+  transform: translate(-5px, 7px);
+}
+
+.expand-colapse {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}

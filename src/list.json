@@ -1,0 +1,281 @@
+[
+  {
+    "value": "United States",
+    "isSelected": false,
+    "isPartiallySelected": false,
+    "id": "2155758",
+    "children": [
+      {
+        "value": "California",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "San Diego",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "3095788"
+          },
+          {
+            "value": "San Francisco",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "5757413"
+          },
+          {
+            "value": "Los Angeles",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "3107786"
+          }
+        ],
+        "id": "9899085"
+      },
+      {
+        "value": "New York",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "New York City",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "1521411"
+          },
+          {
+            "value": "Niagara Falls",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "8303151"
+          }
+        ],
+        "id": "0201413"
+      },
+      {
+        "value": "Massachusetts",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Boston",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "9675047"
+          },
+          {
+            "value": "Cambridge",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "9483156"
+          }
+        ],
+        "id": "0671589"
+      },
+      {
+        "value": "Illinois",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Chicago",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "5084532"
+          }
+        ],
+        "id": "8678686"
+      },
+      {
+        "value": "Florida",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Miami",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "8583406"
+          },
+          {
+            "value": "Orlando",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "9063802"
+          },
+          {
+            "value": "Jacksonville",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "3745213"
+          }
+        ],
+        "id": "4354516"
+      }
+    ]
+  },
+  {
+    "value": "Australia",
+    "isSelected": false,
+    "isPartiallySelected": false,
+    "id": "0776732",
+    "children": [
+      {
+        "value": "New South Wales",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Sydney",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "0832976"
+          },
+          {
+            "value": "Newcastle",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "8216369"
+          }
+        ],
+        "id": "1458022"
+      },
+      {
+        "value": "South Australia",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Adelaide",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "8345791"
+          },
+          {
+            "value": "Adelaide Hills",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "0549808"
+          }
+        ],
+        "id": "6380901"
+      },
+      {
+        "value": "Victoria",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Melbourne",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "0150440"
+          },
+          {
+            "value": "Bendigo",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "1319994"
+          }
+        ],
+        "id": "1582452"
+      }
+    ]
+  },
+  {
+    "value": "United Arab Emirates",
+    "isSelected": false,
+    "isPartiallySelected": false,
+    "id": "7010151",
+    "children": [
+      {
+        "value": "Abu Dhabi Emirate",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "2961320"
+      },
+      {
+        "value": "Ajman Emirate",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "6789815"
+      },
+      {
+        "value": "Dubai",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "7297851"
+      },
+      {
+        "value": "Sharjah Emirate",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "1518641"
+      }
+    ]
+  },
+  {
+    "value": "United Kingdom",
+    "isSelected": false,
+    "isPartiallySelected": false,
+    "id": "7734807",
+    "children": [
+      {
+        "value": "City of London",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "4075160"
+      },
+      {
+        "value": "Scotland",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [
+          {
+            "value": "Aberchirder",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "4928767"
+          },
+          {
+            "value": "Aberdeen",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "children": [],
+            "id": "1019028"
+          }
+        ],
+        "id": "4146899"
+      },
+      {
+        "value": "Cambridgeshire",
+        "isSelected": false,
+        "isPartiallySelected": false,
+        "children": [],
+        "id": "7459958"
+      }
+    ]
+  }
+]
