@@ -4,16 +4,19 @@
     "isSelected": false,
     "isPartiallySelected": false,
     "id": "2155758",
+    "catagory": "Country",
     "children": [
       {
         "value": "California",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "San Diego",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "city",
             "children": [],
             "id": "3095788"
           },
@@ -21,14 +24,50 @@
             "value": "San Francisco",
             "isSelected": false,
             "isPartiallySelected": false,
-            "children": [],
+            "catagory": "city",
+            "children": [
+              {
+                "value": "Golden Gate Bridge",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "189470"
+              },
+              {
+                "value": "Alcatraz Island",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "419346"
+              }
+            ],
             "id": "5757413"
           },
           {
             "value": "Los Angeles",
             "isSelected": false,
             "isPartiallySelected": false,
-            "children": [],
+            "catagory": "City",
+            "children": [
+              {
+                "value": "Universal Studios Hollywood",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "713533"
+              },
+              {
+                "value": "Santa Monica Pier",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "713533"
+              }
+            ],
             "id": "3107786"
           }
         ],
@@ -38,33 +77,38 @@
         "value": "New York",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "New York City",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "1521411"
           },
           {
-            "value": "Niagara Falls",
+            "value": "Niagara",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "8303151"
           }
         ],
-        "id": "0201413"
+        "id": "279924"
       },
       {
         "value": "Massachusetts",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Boston",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "9675047"
           },
@@ -72,22 +116,42 @@
             "value": "Cambridge",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "9483156"
           }
         ],
-        "id": "0671589"
+        "id": "942868"
       },
       {
         "value": "Illinois",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Chicago",
             "isSelected": false,
             "isPartiallySelected": false,
-            "children": [],
+            "catagory": "City",
+            "children": [
+              {
+                "value": "Millennium Park",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "268358"
+              },
+              {
+                "value": "Navy Pier",
+                "isSelected": false,
+                "isPartiallySelected": false,
+                "catagory": "Tourist Place",
+                "children": [],
+                "id": "122742"
+              }
+            ],
             "id": "5084532"
           }
         ],
@@ -97,11 +161,13 @@
         "value": "Florida",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Miami",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "8583406"
           },
@@ -109,6 +175,7 @@
             "value": "Orlando",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "9063802"
           },
@@ -116,6 +183,7 @@
             "value": "Jacksonville",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "3745213"
           }
@@ -128,24 +196,28 @@
     "value": "Australia",
     "isSelected": false,
     "isPartiallySelected": false,
-    "id": "0776732",
+    "id": "182688",
+    "catagory": "Country",
     "children": [
       {
         "value": "New South Wales",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Sydney",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
-            "id": "0832976"
+            "id": "994886"
           },
           {
             "value": "Newcastle",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "8216369"
           }
@@ -156,11 +228,13 @@
         "value": "South Australia",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Adelaide",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "8345791"
           },
@@ -168,8 +242,9 @@
             "value": "Adelaide Hills",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
-            "id": "0549808"
+            "id": "592410"
           }
         ],
         "id": "6380901"
@@ -178,18 +253,21 @@
         "value": "Victoria",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
             "value": "Melbourne",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
-            "id": "0150440"
+            "id": "480885"
           },
           {
             "value": "Bendigo",
             "isSelected": false,
             "isPartiallySelected": false,
+            "catagory": "City",
             "children": [],
             "id": "1319994"
           }
@@ -203,11 +281,13 @@
     "isSelected": false,
     "isPartiallySelected": false,
     "id": "7010151",
+    "catagory": "Country",
     "children": [
       {
         "value": "Abu Dhabi Emirate",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [],
         "id": "2961320"
       },
@@ -215,6 +295,7 @@
         "value": "Ajman Emirate",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [],
         "id": "6789815"
       },
@@ -222,6 +303,7 @@
         "value": "Dubai",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [],
         "id": "7297851"
       },
@@ -229,52 +311,52 @@
         "value": "Sharjah Emirate",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [],
         "id": "1518641"
       }
     ]
   },
   {
-    "value": "United Kingdom",
+    "value": "Canada",
     "isSelected": false,
     "isPartiallySelected": false,
     "id": "7734807",
+    "catagory": "Country",
     "children": [
       {
-        "value": "City of London",
+        "value": "Ontario",
         "isSelected": false,
         "isPartiallySelected": false,
-        "children": [],
+        "catagory": "State",
+        "children": [
+          {
+            "value": "Toronto",
+            "isSelected": false,
+            "isPartiallySelected": false,
+            "catagory": "City",
+            "children": [],
+            "id": "4928767"
+          }
+        ],
         "id": "4075160"
       },
       {
-        "value": "Scotland",
+        "value": "Alberta",
         "isSelected": false,
         "isPartiallySelected": false,
+        "catagory": "State",
         "children": [
           {
-            "value": "Aberchirder",
+            "value": "Edmonton",
             "isSelected": false,
             "isPartiallySelected": false,
-            "children": [],
-            "id": "4928767"
-          },
-          {
-            "value": "Aberdeen",
-            "isSelected": false,
-            "isPartiallySelected": false,
+            "catagory": "city",
             "children": [],
             "id": "1019028"
           }
         ],
         "id": "4146899"
-      },
-      {
-        "value": "Cambridgeshire",
-        "isSelected": false,
-        "isPartiallySelected": false,
-        "children": [],
-        "id": "7459958"
       }
     ]
   }
